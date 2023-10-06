@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Celsius"
+        android:inputType="numberDecimal"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editFahrenheit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Fahrenheit"
+        android:inputType="numberDecimal"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editKelvin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Kelvin"
+        android:inputType="numberDecimal"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:baselineAligned="false"
+        android:text="Convert"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="Clear"
+        android:textSize="18sp" />
+
+</LinearLayout>
